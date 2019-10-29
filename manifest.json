@@ -1,0 +1,21 @@
+{
+  "name": "douban-shell",
+  "description": "Utilities for access to douban.com resources",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "page_action": {
+    "default_title": "豆瓣壳",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["declarativeContent", "contextMenus", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
